@@ -1,10 +1,10 @@
 #liftoff dist file
 product.author=The Jython Team
 product.string=Jython
-product.version=2.1
+product.version=2.2alpha0kb1
 java.minVersion=1.1
 product.root=
-destination.package_prefix=jython-2.1
+destination.package_prefix=jython2.2a0kb1
 license.licenseText=LICENSE.txt
 product.readmeText=README.txt
 builder.extra_files=installer\\liftoff.filelist
@@ -39,7 +39,7 @@ exec.jythonc.class=dummy
 exec.jythonc.location=_top_
 exec.jythonc.target=jythonc
 exec.jythonc.package=core
-exec.jythonc.template.unix=installer/jythonc_template.unix_sh
+export JYTHON_JAVA_ARGS=-Dtoolsjar=d:/pipeline/products/jdk/lib/tools.jarexec.jythonc.template.unix=installer/jythonc_template.unix_sh
 exec.jythonc.template.win=installer/jythonc_template.win_bat
 exec.jythonc.source=
 product.package.lib.label=Library modules
