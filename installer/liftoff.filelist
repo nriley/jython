@@ -52,6 +52,7 @@ t Lib/exceptions.py                   ..\Lib\exceptions.py
 t Lib/getopt.py                       ..\Lib\getopt.py
 t Lib/javaos.py                       ..\Lib\javaos.py
 t Lib/javapath.py                     ..\Lib\javapath.py
+t Lib/jreload.py                      ..\Lib\jreload.py
 t Lib/marshal.py                      ..\Lib\marshal.py
 t Lib/socket.py                       ..\Lib\socket.py
 t Lib/string.py                       ..\Lib\string.py
@@ -304,6 +305,10 @@ t org/python/util/jython.java         ..\org\python\util\jython.java
 t org/python/util/PythonInterpreter.java ..\org\python\util\PythonInterpreter.java
 t org/python/util/PythonObjectInputStream.java ..\org\python\util\PythonObjectInputStream.java
 t org/python/util/Makefile            ..\org\python\util\Makefile
+t Lib/jxxload_help/DiscardHelp.java   ..\Lib\jxxload_help\DiscardHelp.java
+t Lib/jxxload_help/PackageManager.java ..\Lib\jxxload_help\PackageManager.java
+t Lib/jxxload_help/PathVFS.java       ..\Lib\jxxload_help\PathVFS.java
+t Lib/jxxload_help/PathVFSJavaLoader.java ..\Lib\jxxload_help\PathVFSJavaLoader.java
 #
 # Library modules from CPython
 #

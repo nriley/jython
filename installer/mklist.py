@@ -199,6 +199,7 @@ listfiles(None, "org/python/modules", *javafiles)
 listfiles(None, "org/python/parser", exclude=["python.java"], *javafiles)
 listfiles(None, "org/python/rmi", *javafiles)
 listfiles(None, "org/python/util", *javafiles)
+listfiles(None, "Lib/jxxload_help", *javafiles)
 
 comment("Library modules from CPython")
 print "@lib:_top_"
