@@ -1,7 +1,7 @@
 
 import glob, os
 
-PYTHONDIR = r"d:/python/Python211"
+PYTHONDIR = r"d:/python/Python22"
 
 def listfiles(root, d, *masks, **kws):
     exclude = kws.get('exclude', [])
