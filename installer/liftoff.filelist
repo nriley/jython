@@ -165,6 +165,7 @@ t org/python/compiler/ProxyMaker.java ..\org\python\compiler\ProxyMaker.java
 t org/python/compiler/SourceFile.java ..\org\python\compiler\SourceFile.java
 t org/python/compiler/Makefile        ..\org\python\compiler\Makefile
 t org/python/core/ArgParser.java      ..\org\python\core\ArgParser.java
+t org/python/core/AutoInternalTables.java ..\org\python\core\AutoInternalTables.java
 t org/python/core/BytecodeLoader.java ..\org\python\core\BytecodeLoader.java
 t org/python/core/CachedJarsPackageManager.java ..\org\python\core\CachedJarsPackageManager.java
 t org/python/core/ClassDictInit.java  ..\org\python\core\ClassDictInit.java
@@ -175,6 +176,9 @@ t org/python/core/exceptions.java     ..\org\python\core\exceptions.java
 t org/python/core/ExtraMath.java      ..\org\python\core\ExtraMath.java
 t org/python/core/imp.java            ..\org\python\core\imp.java
 t org/python/core/InitModule.java     ..\org\python\core\InitModule.java
+t org/python/core/InternalTables.java ..\org\python\core\InternalTables.java
+t org/python/core/InternalTables1.java ..\org\python\core\InternalTables1.java
+t org/python/core/InternalTables2.java ..\org\python\core\InternalTables2.java
 t org/python/core/Java2Accessibility.java ..\org\python\core\Java2Accessibility.java
 t org/python/core/JavaAccessibility.java ..\org\python\core\JavaAccessibility.java
 t org/python/core/MakeProxies.java    ..\org\python\core\MakeProxies.java
@@ -232,12 +236,17 @@ t org/python/core/PyTuple.java        ..\org\python\core\PyTuple.java
 t org/python/core/PyXRange.java       ..\org\python\core\PyXRange.java
 t org/python/core/ReflectedArgs.java  ..\org\python\core\ReflectedArgs.java
 t org/python/core/ReflectedCallData.java ..\org\python\core\ReflectedCallData.java
+t org/python/core/SoftIInternalTables.java ..\org\python\core\SoftIInternalTables.java
 t org/python/core/StderrWrapper.java  ..\org\python\core\StderrWrapper.java
 t org/python/core/StdoutWrapper.java  ..\org\python\core\StdoutWrapper.java
 t org/python/core/SysPackageManager.java ..\org\python\core\SysPackageManager.java
+t org/python/core/SyspathJavaLoader.java ..\org\python\core\SyspathJavaLoader.java
 t org/python/core/ThreadState.java    ..\org\python\core\ThreadState.java
+t org/python/core/ThreadStateMapping.java ..\org\python\core\ThreadStateMapping.java
+t org/python/core/ThreadStateMapping2.java ..\org\python\core\ThreadStateMapping2.java
 t org/python/core/TraceFunction.java  ..\org\python\core\TraceFunction.java
 t org/python/core/ucnhashAPI.java     ..\org\python\core\ucnhashAPI.java
+t org/python/core/WeakInternalTables.java ..\org\python\core\WeakInternalTables.java
 t org/python/core/__builtin__.java    ..\org\python\core\__builtin__.java
 t org/python/core/Makefile            ..\org\python\core\Makefile
 t org/python/modules/binascii.java    ..\org\python\modules\binascii.java
