@@ -161,7 +161,7 @@ listfiles(None, "Tools/jythonc", "*.py")
 listfiles(None, "Tools/jythonc/jast", "*.py")
 
 comment("special library modules")
-listfiles(None, "Lib", '*.py', 'pawt/*.py')
+listfiles(None, "Lib", '*.py', 'pawt/*.py', exclude=["site.py"])
 
 comment("Docs")
 listfiles(None, "Doc", '*.html', '*.ht')
@@ -195,6 +195,7 @@ print "@lib:_top_"
 listfiles(PYTHONDIR, "Lib", *pylibfiles)
 comment("Library modules from CPython2.0")
 print "t Lib/LICENSE %s\LICENSE.txt" % PYTHONDIR
+listfiles(None, "Lib", 'site.py')
 listfiles(PYTHONDIR, "Lib", "pstats.py", "code.py", "codecs.py")
 listfiles(PYTHONDIR, "Lib", "sre*.py")
 listfiles(PYTHONDIR, "Lib/encodings", "*.py")
