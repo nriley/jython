@@ -413,6 +413,7 @@ t org/python/modules/_jython.java     ..\org\python\modules\_jython.java
 t org/python/modules/_sre.java        ..\org\python\modules\_sre.java
 t org/python/modules/_weakref.java    ..\org\python\modules\_weakref.java
 t org/python/modules/Makefile         ..\org\python\modules\Makefile
+b org/python/modules/ucnhash.dat      ..\org/python/modules/ucnhash.dat
 t org/python/modules/sre/MatchObject.java ..\org\python\modules\sre\MatchObject.java
 t org/python/modules/sre/PatternObject.java ..\org\python\modules\sre\PatternObject.java
 t org/python/modules/sre/ScannerObject.java ..\org\python\modules\sre\ScannerObject.java
