@@ -81,7 +81,7 @@ t Doc/registry.html                   ..\Doc\registry.html
 t Doc/subclassing.html                ..\Doc\subclassing.html
 t Doc/usejava.html                    ..\Doc\usejava.html
 t Doc/whatis.html                     ..\Doc\whatis.html
-t Doc/zxJDBC.html                     ..\Doc\zxJDBC.html
+t Doc/zxjdbc.html                     ..\Doc\zxjdbc.html
 b Doc/images/jython-new-small.gif     ..\Doc/images/jython-new-small.gif
 b Doc/images/PythonPoweredSmall.gif   ..\Doc/images/PythonPoweredSmall.gif
 t Doc/api/allclasses-frame.html       ..\Doc\api\allclasses-frame.html
@@ -268,6 +268,7 @@ t org/python/compiler/AdapterMaker.java ..\org\python\compiler\AdapterMaker.java
 t org/python/compiler/APIVersion.java ..\org\python\compiler\APIVersion.java
 t org/python/compiler/ArgListCompiler.java ..\org\python\compiler\ArgListCompiler.java
 t org/python/compiler/Attribute.java  ..\org\python\compiler\Attribute.java
+t org/python/compiler/ClassConstants.java ..\org\python\compiler\ClassConstants.java
 t org/python/compiler/ClassFile.java  ..\org\python\compiler\ClassFile.java
 t org/python/compiler/Code.java       ..\org\python\compiler\Code.java
 t org/python/compiler/CodeCompiler.java ..\org\python\compiler\CodeCompiler.java
