@@ -134,6 +134,7 @@ pylibfiles = [
     'urllib.py',
     'urlparse.py',
     'user.py',
+    'whichdb.py',
     'whrandom.py',
     'xdrlib.py',
     'xmllib.py',
