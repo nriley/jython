@@ -161,6 +161,7 @@ listfiles(None, "Tools/jythonc", "*.py")
 listfiles(None, "Tools/jythonc/jast", "*.py")
 
 comment("special library modules")
+text("Lib/LICENSE")
 listfiles(None, "Lib", '*.py', 'pawt/*.py')
 
 comment("Docs")
@@ -181,6 +182,7 @@ listfiles(None, "Demo/swing", *demofiles)
 
 comment("The source files")
 print "@source:_top_"
+text("org/apache/LICENSE")
 listfiles(None, "org/apache/oro/text/regex", *javafiles)
 listfiles(None, "org/python/compiler", *javafiles)
 listfiles(None, "org/python/core", *javafiles)
