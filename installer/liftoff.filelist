@@ -216,6 +216,11 @@ t Demo/swing/ObjectTree.py            ..\Demo\swing\ObjectTree.py
 t Demo/swing/simple.py                ..\Demo\swing\simple.py
 t Demo/swing/Styles.py                ..\Demo\swing\Styles.py
 t Demo/swing/TreeDemo.py              ..\Demo\swing\TreeDemo.py
+t Demo/jreload/example.jar            ..\Demo\jreload\example.jar
+t Demo/jreload/_xample/Version.class  ..\Demo\jreload\_xample\Version.class
+t Demo/jreload/src/example/jar-Version.java ..\Demo\jreload\src\example\jar-Version.java
+t Demo/jreload/src/example/new-Version.java ..\Demo\jreload\src\example\new-Version.java
+t Demo/jreload/src/example/PrintVer.java ..\Demo\jreload\src\example\PrintVer.java
 #
 # The source files
 #

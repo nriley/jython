@@ -199,6 +199,9 @@ listfiles(None, "Demo/embed", *demofiles)
 listfiles(None, "Demo/javaclasses", *demofiles)
 listfiles(None, "Demo/javaclasses/pygraph", *demofiles)
 listfiles(None, "Demo/swing", *demofiles)
+listfiles(None, "Demo/jreload", 'example.jar')
+listfiles(None, "Demo/jreload/_xample", 'Version.class')
+listfiles(None, "Demo/jreload/src/example", *demofiles)
 
 comment("The source files")
 print "@source:_top_"
