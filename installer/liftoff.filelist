@@ -54,6 +54,7 @@ t Lib/javaos.py                       ..\Lib\javaos.py
 t Lib/javapath.py                     ..\Lib\javapath.py
 t Lib/jreload.py                      ..\Lib\jreload.py
 t Lib/marshal.py                      ..\Lib\marshal.py
+t Lib/re.py                           ..\Lib\re.py
 t Lib/socket.py                       ..\Lib\socket.py
 t Lib/string.py                       ..\Lib\string.py
 t Lib/zipfile.py                      ..\Lib\zipfile.py
@@ -97,6 +98,7 @@ t Doc/api/org/python/core/CachedJarsPackageManager.html ..\Doc\api\org\python\co
 t Doc/api/org/python/core/CachedJarsPackageManager.JarXEntry.html ..\Doc\api\org\python\core\CachedJarsPackageManager.JarXEntry.html
 t Doc/api/org/python/core/ClassDictInit.html ..\Doc\api\org\python\core\ClassDictInit.html
 t Doc/api/org/python/core/codecs.html ..\Doc\api\org\python\core\codecs.html
+t Doc/api/org/python/core/CompilerFlags.html ..\Doc\api\org\python\core\CompilerFlags.html
 t Doc/api/org/python/core/exceptions.html ..\Doc\api\org\python\core\exceptions.html
 t Doc/api/org/python/core/ExtraMath.html ..\Doc\api\org\python\core\ExtraMath.html
 t Doc/api/org/python/core/imp.html    ..\Doc\api\org\python\core\imp.html
@@ -177,9 +179,11 @@ t Doc/api/org/python/util/jython.html ..\Doc\api\org\python\util\jython.html
 t Doc/api/org/python/util/package-frame.html ..\Doc\api\org\python\util\package-frame.html
 t Doc/api/org/python/util/package-summary.html ..\Doc\api\org\python\util\package-summary.html
 t Doc/api/org/python/util/package-tree.html ..\Doc\api\org\python\util\package-tree.html
+t Doc/api/org/python/util/PyMetaClass.html ..\Doc\api\org\python\util\PyMetaClass.html
 t Doc/api/org/python/util/PyServlet.html ..\Doc\api\org\python\util\PyServlet.html
 t Doc/api/org/python/util/PythonInterpreter.html ..\Doc\api\org\python\util\PythonInterpreter.html
 t Doc/api/org/python/util/PythonObjectInputStream.html ..\Doc\api\org\python\util\PythonObjectInputStream.html
+t Doc/api/org/python/util/ReadlineConsole.html ..\Doc\api\org\python\util\ReadlineConsole.html
 #
 # Demos
 #
@@ -443,7 +447,6 @@ t Lib/cmd.py                          d:\python\Python-2.1\Lib\cmd.py
 t Lib/colorsys.py                     d:\python\Python-2.1\Lib\colorsys.py
 t Lib/commands.py                     d:\python\Python-2.1\Lib\commands.py
 t Lib/compileall.py                   d:\python\Python-2.1\Lib\compileall.py
-t Lib/copy.py                         d:\python\Python-2.1\Lib\copy.py
 t Lib/copy_reg.py                     d:\python\Python-2.1\Lib\copy_reg.py
 t Lib/dircache.py                     d:\python\Python-2.1\Lib\dircache.py
 t Lib/dospath.py                      d:\python\Python-2.1\Lib\dospath.py
@@ -514,12 +517,10 @@ t Lib/whichdb.py                      d:\python\Python-2.1\Lib\whichdb.py
 t Lib/whrandom.py                     d:\python\Python-2.1\Lib\whrandom.py
 t Lib/xdrlib.py                       d:\python\Python-2.1\Lib\xdrlib.py
 t Lib/xmllib.py                       d:\python\Python-2.1\Lib\xmllib.py
-t Lib/zipfile.py                      d:\python\Python-2.1\Lib\zipfile.py
 t Lib/test/pystone.py                 d:\python\Python-2.1\Lib\test\pystone.py
 t Lib/pstats.py                       d:\python\Python-2.1\Lib\pstats.py
 t Lib/code.py                         d:\python\Python-2.1\Lib\code.py
 t Lib/codecs.py                       d:\python\Python-2.1\Lib\codecs.py
-t Lib/re.py                           d:\python\Python-2.1\Lib\re.py
 t Lib/sre.py                          d:\python\Python-2.1\Lib\sre.py
 t Lib/sre_compile.py                  d:\python\Python-2.1\Lib\sre_compile.py
 t Lib/sre_constants.py                d:\python\Python-2.1\Lib\sre_constants.py
