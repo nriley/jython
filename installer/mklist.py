@@ -10,12 +10,12 @@ def listfiles(root, d, *masks, **kws):
             rootdir = os.path.join(root, d, mask)
         else:
             rootdir = os.path.join(d, mask)
-    
+
         fl = glob.glob(rootdir)
         for f in fl:
-            if os.path.basename(f) in exclude: 
+            if os.path.basename(f) in exclude:
                 continue
-            # After this, the name is a true mess of different 
+            # After this, the name is a true mess of different
             # path seperator chars. Attempt to clean this by making
             # the jar contain only unix seps.
             if root:
@@ -151,8 +151,8 @@ pylibfiles = [
     'test/pystone.py',
 
     # New CPython files added in Jython
-    'pstats.py', 
-    'code.py', 
+    'pstats.py',
+    'code.py',
     'codecs.py',
     #'re.py',
     'sre*.py',
@@ -219,6 +219,14 @@ listfiles(None, "org/python/parser", exclude=["python.java"], *javafiles)
 listfiles(None, "org/python/rmi", *javafiles)
 listfiles(None, "org/python/util", *javafiles)
 listfiles(None, "Lib/jxxload_help", *javafiles)
+listfiles(None, "com/ziclix/python/sql", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/util", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/resource", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/pipe", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/pipe/db", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/pipe/csv", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/handler", *.javafiles)
+listfiles(None, "com/ziclix/python/sql/connect", *.javafiles)
 
 comment("Library modules from CPython")
 print "@lib:_top_"
