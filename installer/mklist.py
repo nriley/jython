@@ -67,7 +67,7 @@ pylibfiles = [
     'colorsys.py',
     'commands.py',
     'compileall.py',
-    'copy.py',
+    #'copy.py', # Temporarily removed.
     'copy_reg.py',
     'dircache.py',
     'dircmp.py',

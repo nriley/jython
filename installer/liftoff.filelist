@@ -48,6 +48,7 @@ t Tools/jythonc/jast/__init__.py      ..\Tools\jythonc\jast\__init__.py
 # special library modules
 #
 t Lib/code.py                         ..\Lib\code.py
+t Lib/copy.py                         ..\Lib\copy.py
 t Lib/exceptions.py                   ..\Lib\exceptions.py
 t Lib/getopt.py                       ..\Lib\getopt.py
 t Lib/javaos.py                       ..\Lib\javaos.py
@@ -315,7 +316,6 @@ t Lib/cmd.py                          d:\Python20\Lib\cmd.py
 t Lib/colorsys.py                     d:\Python20\Lib\colorsys.py
 t Lib/commands.py                     d:\Python20\Lib\commands.py
 t Lib/compileall.py                   d:\Python20\Lib\compileall.py
-t Lib/copy.py                         d:\Python20\Lib\copy.py
 t Lib/copy_reg.py                     d:\Python20\Lib\copy_reg.py
 t Lib/dircache.py                     d:\Python20\Lib\dircache.py
 t Lib/dospath.py                      d:\Python20\Lib\dospath.py
