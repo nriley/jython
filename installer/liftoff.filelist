@@ -32,6 +32,7 @@ t Tools/jythonc/jythonc.py            ..\Tools\jythonc\jythonc.py
 t Tools/jythonc/main.py               ..\Tools\jythonc\main.py
 t Tools/jythonc/Object.py             ..\Tools\jythonc\Object.py
 t Tools/jythonc/ObjectFactory.py      ..\Tools\jythonc\ObjectFactory.py
+t Tools/jythonc/PathVFS.py            ..\Tools\jythonc\PathVFS.py
 t Tools/jythonc/proxies.py            ..\Tools\jythonc\proxies.py
 t Tools/jythonc/PythonInterpreter.py  ..\Tools\jythonc\PythonInterpreter.py
 t Tools/jythonc/PythonModule.py       ..\Tools\jythonc\PythonModule.py
@@ -46,6 +47,7 @@ t Tools/jythonc/jast/__init__.py      ..\Tools\jythonc\jast\__init__.py
 #
 # special library modules
 #
+t Lib/LICENSE                         ..\Lib/LICENSE
 t Lib/code.py                         ..\Lib\code.py
 t Lib/exceptions.py                   ..\Lib\exceptions.py
 t Lib/getopt.py                       ..\Lib\getopt.py
@@ -126,6 +128,7 @@ t Demo/swing/TreeDemo.py              ..\Demo\swing\TreeDemo.py
 # The source files
 #
 @source:_top_
+t org/apache/LICENSE                  ..\org/apache/LICENSE
 t org/apache/oro/text/regex/CharStringPointer.java ..\org\apache\oro\text\regex\CharStringPointer.java
 t org/apache/oro/text/regex/MalformedPatternException.java ..\org\apache\oro\text\regex\MalformedPatternException.java
 t org/apache/oro/text/regex/MatchResult.java ..\org\apache\oro\text\regex\MatchResult.java
