@@ -237,6 +237,7 @@ t org/python/core/StdoutWrapper.java  ..\org\python\core\StdoutWrapper.java
 t org/python/core/SysPackageManager.java ..\org\python\core\SysPackageManager.java
 t org/python/core/ThreadState.java    ..\org\python\core\ThreadState.java
 t org/python/core/TraceFunction.java  ..\org\python\core\TraceFunction.java
+t org/python/core/ucnhashAPI.java     ..\org\python\core\ucnhashAPI.java
 t org/python/core/__builtin__.java    ..\org\python\core\__builtin__.java
 t org/python/core/Makefile            ..\org\python\core\Makefile
 t org/python/modules/binascii.java    ..\org\python\modules\binascii.java
@@ -266,7 +267,7 @@ t org/python/modules/synchronize.java ..\org\python\modules\synchronize.java
 t org/python/modules/thread.java      ..\org\python\modules\thread.java
 t org/python/modules/time.java        ..\org\python\modules\time.java
 t org/python/modules/types.java       ..\org\python\modules\types.java
-t org/python/modules/ucnhashAPI.java  ..\org\python\modules\ucnhashAPI.java
+t org/python/modules/ucnhash.java     ..\org\python\modules\ucnhash.java
 t org/python/modules/_codecs.java     ..\org\python\modules\_codecs.java
 t org/python/modules/_sre.java        ..\org\python\modules\_sre.java
 t org/python/modules/Makefile         ..\org\python\modules\Makefile
@@ -388,6 +389,7 @@ t Lib/test/pystone.py                 d:\Python20\Lib\test\pystone.py
 # Library modules from CPython2.0
 #
 t Lib/LICENSE d:/Python20\LICENSE.txt
+t Lib/site.py                         ..\Lib\site.py
 t Lib/pstats.py                       d:\Python20\Lib\pstats.py
 t Lib/code.py                         d:\Python20\Lib\code.py
 t Lib/codecs.py                       d:\Python20\Lib\codecs.py
