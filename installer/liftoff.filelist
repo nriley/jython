@@ -39,7 +39,6 @@ t Tools/jythonc/PythonModule.py       ..\Tools\jythonc\PythonModule.py
 t Tools/jythonc/PythonVisitor.py      ..\Tools\jythonc\PythonVisitor.py
 t Tools/jythonc/SimpleCompiler.py     ..\Tools\jythonc\SimpleCompiler.py
 t Tools/jythonc/util.py               ..\Tools\jythonc\util.py
-t Tools/jythonc/xx.py                 ..\Tools\jythonc\xx.py
 t Tools/jythonc/yapm.py               ..\Tools\jythonc\yapm.py
 t Tools/jythonc/jast/Modifier.py      ..\Tools\jythonc\jast\Modifier.py
 t Tools/jythonc/jast/Output.py        ..\Tools\jythonc\jast\Output.py
