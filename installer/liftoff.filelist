@@ -47,7 +47,6 @@ t Tools/jythonc/jast/__init__.py      ..\Tools\jythonc\jast\__init__.py
 #
 # special library modules
 #
-t Lib/LICENSE                         ..\Lib/LICENSE
 t Lib/code.py                         ..\Lib\code.py
 t Lib/exceptions.py                   ..\Lib\exceptions.py
 t Lib/getopt.py                       ..\Lib\getopt.py
@@ -388,8 +387,10 @@ t Lib/test/pystone.py                 d:\Python20\Lib\test\pystone.py
 #
 # Library modules from CPython2.0
 #
+t Lib/LICENSE d:/Python20\LICENSE.txt
 t Lib/pstats.py                       d:\Python20\Lib\pstats.py
 t Lib/code.py                         d:\Python20\Lib\code.py
+t Lib/codecs.py                       d:\Python20\Lib\codecs.py
 t Lib/sre.py                          d:\Python20\Lib\sre.py
 t Lib/sre_compile.py                  d:\Python20\Lib\sre_compile.py
 t Lib/sre_constants.py                d:\Python20\Lib\sre_constants.py
