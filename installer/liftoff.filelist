@@ -167,6 +167,8 @@ t org/python/compiler/Makefile        ..\org\python\compiler\Makefile
 t org/python/core/ArgParser.java      ..\org\python\core\ArgParser.java
 t org/python/core/AutoInternalTables.java ..\org\python\core\AutoInternalTables.java
 t org/python/core/BytecodeLoader.java ..\org\python\core\BytecodeLoader.java
+t org/python/core/BytecodeLoader1.java ..\org\python\core\BytecodeLoader1.java
+t org/python/core/BytecodeLoader2.java ..\org\python\core\BytecodeLoader2.java
 t org/python/core/CachedJarsPackageManager.java ..\org\python\core\CachedJarsPackageManager.java
 t org/python/core/ClassDictInit.java  ..\org\python\core\ClassDictInit.java
 t org/python/core/codecs.java         ..\org\python\core\codecs.java
@@ -181,6 +183,7 @@ t org/python/core/InternalTables1.java ..\org\python\core\InternalTables1.java
 t org/python/core/InternalTables2.java ..\org\python\core\InternalTables2.java
 t org/python/core/Java2Accessibility.java ..\org\python\core\Java2Accessibility.java
 t org/python/core/JavaAccessibility.java ..\org\python\core\JavaAccessibility.java
+t org/python/core/Loader.java         ..\org\python\core\Loader.java
 t org/python/core/MakeProxies.java    ..\org\python\core\MakeProxies.java
 t org/python/core/Options.java        ..\org\python\core\Options.java
 t org/python/core/PackageManager.java ..\org\python\core\PackageManager.java
