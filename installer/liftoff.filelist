@@ -154,6 +154,7 @@ t Doc/javadoc/org/python/core/PyMetaClass.html ..\Doc\javadoc\org\python\core\Py
 t Doc/javadoc/org/python/core/PyMethod.html ..\Doc\javadoc\org\python\core\PyMethod.html
 t Doc/javadoc/org/python/core/PyModule.html ..\Doc\javadoc\org\python\core\PyModule.html
 t Doc/javadoc/org/python/core/PyNone.html ..\Doc\javadoc\org\python\core\PyNone.html
+t Doc/javadoc/org/python/core/PyNotImplemented.html ..\Doc\javadoc\org\python\core\PyNotImplemented.html
 t Doc/javadoc/org/python/core/PyObject.html ..\Doc\javadoc\org\python\core\PyObject.html
 t Doc/javadoc/org/python/core/PyProxy.html ..\Doc\javadoc\org\python\core\PyProxy.html
 t Doc/javadoc/org/python/core/PyReflectedConstructor.html ..\Doc\javadoc\org\python\core\PyReflectedConstructor.html
@@ -193,12 +194,14 @@ t Doc/javadoc/org/python/util/PythonInterpreter.html ..\Doc\javadoc\org\python\u
 t Doc/javadoc/org/python/util/PythonObjectInputStream.html ..\Doc\javadoc\org\python\util\PythonObjectInputStream.html
 t Doc/javadoc/org/python/util/ReadlineConsole.html ..\Doc\javadoc\org\python\util\ReadlineConsole.html
 t Doc/javadoc/com/ziclix/python/sql/DataHandler.html ..\Doc\javadoc\com\ziclix\python\sql\DataHandler.html
+t Doc/javadoc/com/ziclix/python/sql/DBApiType.html ..\Doc\javadoc\com\ziclix\python\sql\DBApiType.html
 t Doc/javadoc/com/ziclix/python/sql/Fetch.html ..\Doc\javadoc\com\ziclix\python\sql\Fetch.html
 t Doc/javadoc/com/ziclix/python/sql/FilterDataHandler.html ..\Doc\javadoc\com\ziclix\python\sql\FilterDataHandler.html
 t Doc/javadoc/com/ziclix/python/sql/JDBC20DataHandler.html ..\Doc\javadoc\com\ziclix\python\sql\JDBC20DataHandler.html
 t Doc/javadoc/com/ziclix/python/sql/package-frame.html ..\Doc\javadoc\com\ziclix\python\sql\package-frame.html
 t Doc/javadoc/com/ziclix/python/sql/package-summary.html ..\Doc\javadoc\com\ziclix\python\sql\package-summary.html
 t Doc/javadoc/com/ziclix/python/sql/package-tree.html ..\Doc\javadoc\com\ziclix\python\sql\package-tree.html
+t Doc/javadoc/com/ziclix/python/sql/Procedure.html ..\Doc\javadoc\com\ziclix\python\sql\Procedure.html
 t Doc/javadoc/com/ziclix/python/sql/PyConnection.html ..\Doc\javadoc\com\ziclix\python\sql\PyConnection.html
 t Doc/javadoc/com/ziclix/python/sql/PyCursor.html ..\Doc\javadoc\com\ziclix\python\sql\PyCursor.html
 t Doc/javadoc/com/ziclix/python/sql/PyExtendedCursor.html ..\Doc\javadoc\com\ziclix\python\sql\PyExtendedCursor.html
@@ -451,6 +454,7 @@ t Lib/jxxload_help/JavaLoaderFactory.java ..\Lib\jxxload_help\JavaLoaderFactory.
 t Lib/jxxload_help/PackageManager.java ..\Lib\jxxload_help\PackageManager.java
 t Lib/jxxload_help/PathVFS.java       ..\Lib\jxxload_help\PathVFS.java
 t Lib/jxxload_help/PathVFSJavaLoader.java ..\Lib\jxxload_help\PathVFSJavaLoader.java
+t Lib/jxxload_help/Makefile           ..\Lib\jxxload_help\Makefile
 t com/ziclix/python/sql/DataHandler.java ..\com\ziclix\python\sql\DataHandler.java
 t com/ziclix/python/sql/DBApiType.java ..\com\ziclix\python\sql\DBApiType.java
 t com/ziclix/python/sql/Fetch.java    ..\com\ziclix\python\sql\Fetch.java
@@ -478,6 +482,7 @@ t com/ziclix/python/sql/handler/InformixDataHandler.java ..\com\ziclix\python\sq
 t com/ziclix/python/sql/handler/MySQLDataHandler.java ..\com\ziclix\python\sql\handler\MySQLDataHandler.java
 t com/ziclix/python/sql/handler/OracleDataHandler.java ..\com\ziclix\python\sql\handler\OracleDataHandler.java
 t com/ziclix/python/sql/handler/PostgresqlDataHandler.java ..\com\ziclix\python\sql\handler\PostgresqlDataHandler.java
+t com/ziclix/python/sql/handler/SQLServerDataHandler.java ..\com\ziclix\python\sql\handler\SQLServerDataHandler.java
 t com/ziclix/python/sql/handler/UpdateCountDataHandler.java ..\com\ziclix\python\sql\handler\UpdateCountDataHandler.java
 t com/ziclix/python/sql/connect/Connect.java ..\com\ziclix\python\sql\connect\Connect.java
 t com/ziclix/python/sql/connect/Connectx.java ..\com\ziclix\python\sql\connect\Connectx.java
