@@ -193,6 +193,7 @@ binary("Doc/images/PythonPoweredSmall.gif")
 listfiles(None, "Doc/api", '*.html', '*.css')
 listfiles(None, "Doc/api/org/python/core", '*.html')
 listfiles(None, "Doc/api/org/python/util", '*.html')
+listfiles(None, "Doc/api/com/ziclix/python/sql", '*.html')
 
 comment("Demos")
 print "@demo:_top_"
