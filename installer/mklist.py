@@ -136,6 +136,7 @@ pylibfiles = [
     'tokenize.py',
     'traceback.py',
     'tzparse.py',
+    'unittest.py',
     'urllib.py',
     'urlparse.py',
     'user.py',
