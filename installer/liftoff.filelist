@@ -48,11 +48,15 @@ t Tools/jythonc/jast/__init__.py      ..\Tools\jythonc\jast\__init__.py
 # special library modules
 #
 t Lib/copy.py                         ..\Lib\copy.py
+t Lib/dbexts.py                       ..\Lib\dbexts.py
 t Lib/getopt.py                       ..\Lib\getopt.py
+t Lib/imaplib.py                      ..\Lib\imaplib.py
+t Lib/isql.py                         ..\Lib\isql.py
 t Lib/javaos.py                       ..\Lib\javaos.py
 t Lib/javapath.py                     ..\Lib\javapath.py
 t Lib/jreload.py                      ..\Lib\jreload.py
 t Lib/marshal.py                      ..\Lib\marshal.py
+t Lib/random.py                       ..\Lib\random.py
 t Lib/re.py                           ..\Lib\re.py
 t Lib/socket.py                       ..\Lib\socket.py
 t Lib/string.py                       ..\Lib\string.py
@@ -77,10 +81,12 @@ t Doc/registry.html                   ..\Doc\registry.html
 t Doc/subclassing.html                ..\Doc\subclassing.html
 t Doc/usejava.html                    ..\Doc\usejava.html
 t Doc/whatis.html                     ..\Doc\whatis.html
+t Doc/zxJDBC.html                     ..\Doc\zxJDBC.html
 b Doc/images/jython-new-small.gif     ..\Doc/images/jython-new-small.gif
 b Doc/images/PythonPoweredSmall.gif   ..\Doc/images/PythonPoweredSmall.gif
 t Doc/api/allclasses-frame.html       ..\Doc\api\allclasses-frame.html
 t Doc/api/allclasses-noframe.html     ..\Doc\api\allclasses-noframe.html
+t Doc/api/constant-values.html        ..\Doc\api\constant-values.html
 t Doc/api/deprecated-list.html        ..\Doc\api\deprecated-list.html
 t Doc/api/help-doc.html               ..\Doc\api\help-doc.html
 t Doc/api/index-all.html              ..\Doc\api\index-all.html
@@ -186,6 +192,17 @@ t Doc/api/org/python/util/PyServlet.html ..\Doc\api\org\python\util\PyServlet.ht
 t Doc/api/org/python/util/PythonInterpreter.html ..\Doc\api\org\python\util\PythonInterpreter.html
 t Doc/api/org/python/util/PythonObjectInputStream.html ..\Doc\api\org\python\util\PythonObjectInputStream.html
 t Doc/api/org/python/util/ReadlineConsole.html ..\Doc\api\org\python\util\ReadlineConsole.html
+t Doc/api/com/ziclix/python/sql/DataHandler.html ..\Doc\api\com\ziclix\python\sql\DataHandler.html
+t Doc/api/com/ziclix/python/sql/Fetch.html ..\Doc\api\com\ziclix\python\sql\Fetch.html
+t Doc/api/com/ziclix/python/sql/FilterDataHandler.html ..\Doc\api\com\ziclix\python\sql\FilterDataHandler.html
+t Doc/api/com/ziclix/python/sql/JDBC20DataHandler.html ..\Doc\api\com\ziclix\python\sql\JDBC20DataHandler.html
+t Doc/api/com/ziclix/python/sql/package-frame.html ..\Doc\api\com\ziclix\python\sql\package-frame.html
+t Doc/api/com/ziclix/python/sql/package-summary.html ..\Doc\api\com\ziclix\python\sql\package-summary.html
+t Doc/api/com/ziclix/python/sql/package-tree.html ..\Doc\api\com\ziclix\python\sql\package-tree.html
+t Doc/api/com/ziclix/python/sql/PyConnection.html ..\Doc\api\com\ziclix\python\sql\PyConnection.html
+t Doc/api/com/ziclix/python/sql/PyCursor.html ..\Doc\api\com\ziclix\python\sql\PyCursor.html
+t Doc/api/com/ziclix/python/sql/PyExtendedCursor.html ..\Doc\api\com\ziclix\python\sql\PyExtendedCursor.html
+t Doc/api/com/ziclix/python/sql/zxJDBC.html ..\Doc\api\com\ziclix\python\sql\zxJDBC.html
 #
 # Demos
 #
@@ -389,6 +406,7 @@ t org/python/modules/thread.java      ..\org\python\modules\thread.java
 t org/python/modules/time.java        ..\org\python\modules\time.java
 t org/python/modules/types.java       ..\org\python\modules\types.java
 t org/python/modules/ucnhash.java     ..\org\python\modules\ucnhash.java
+t org/python/modules/xreadlines.java  ..\org\python\modules\xreadlines.java
 t org/python/modules/_codecs.java     ..\org\python\modules\_codecs.java
 t org/python/modules/_jython.java     ..\org\python\modules\_jython.java
 t org/python/modules/_sre.java        ..\org\python\modules\_sre.java
@@ -430,6 +448,35 @@ t Lib/jxxload_help/JavaLoaderFactory.java ..\Lib\jxxload_help\JavaLoaderFactory.
 t Lib/jxxload_help/PackageManager.java ..\Lib\jxxload_help\PackageManager.java
 t Lib/jxxload_help/PathVFS.java       ..\Lib\jxxload_help\PathVFS.java
 t Lib/jxxload_help/PathVFSJavaLoader.java ..\Lib\jxxload_help\PathVFSJavaLoader.java
+t com/ziclix/python/sql/DataHandler.java ..\com\ziclix\python\sql\DataHandler.java
+t com/ziclix/python/sql/Fetch.java    ..\com\ziclix\python\sql\Fetch.java
+t com/ziclix/python/sql/FilterDataHandler.java ..\com\ziclix\python\sql\FilterDataHandler.java
+t com/ziclix/python/sql/JDBC20DataHandler.java ..\com\ziclix\python\sql\JDBC20DataHandler.java
+t com/ziclix/python/sql/PyConnection.java ..\com\ziclix\python\sql\PyConnection.java
+t com/ziclix/python/sql/PyCursor.java ..\com\ziclix\python\sql\PyCursor.java
+t com/ziclix/python/sql/PyExtendedCursor.java ..\com\ziclix\python\sql\PyExtendedCursor.java
+t com/ziclix/python/sql/zxJDBC.java   ..\com\ziclix\python\sql\zxJDBC.java
+t com/ziclix/python/sql/util/BCP.java ..\com\ziclix\python\sql\util\BCP.java
+t com/ziclix/python/sql/util/PyArgParser.java ..\com\ziclix\python\sql\util\PyArgParser.java
+t com/ziclix/python/sql/util/Queue.java ..\com\ziclix\python\sql\util\Queue.java
+t com/ziclix/python/sql/util/QueueClosedException.java ..\com\ziclix\python\sql\util\QueueClosedException.java
+t com/ziclix/python/sql/resource/zxJDBCMessages.properties ..\com\ziclix\python\sql\resource\zxJDBCMessages.properties
+t com/ziclix/python/sql/pipe/Pipe.java ..\com\ziclix\python\sql\pipe\Pipe.java
+t com/ziclix/python/sql/pipe/Sink.java ..\com\ziclix\python\sql\pipe\Sink.java
+t com/ziclix/python/sql/pipe/Source.java ..\com\ziclix\python\sql\pipe\Source.java
+t com/ziclix/python/sql/pipe/db/BaseDB.java ..\com\ziclix\python\sql\pipe\db\BaseDB.java
+t com/ziclix/python/sql/pipe/db/DBSink.java ..\com\ziclix\python\sql\pipe\db\DBSink.java
+t com/ziclix/python/sql/pipe/db/DBSource.java ..\com\ziclix\python\sql\pipe\db\DBSource.java
+t com/ziclix/python/sql/pipe/csv/CSVSink.java ..\com\ziclix\python\sql\pipe\csv\CSVSink.java
+t com/ziclix/python/sql/pipe/csv/CSVString.java ..\com\ziclix\python\sql\pipe\csv\CSVString.java
+t com/ziclix/python/sql/handler/InformixDataHandler.java ..\com\ziclix\python\sql\handler\InformixDataHandler.java
+t com/ziclix/python/sql/handler/MySQLDataHandler.java ..\com\ziclix\python\sql\handler\MySQLDataHandler.java
+t com/ziclix/python/sql/handler/OracleDataHandler.java ..\com\ziclix\python\sql\handler\OracleDataHandler.java
+t com/ziclix/python/sql/handler/PostgresqlDataHandler.java ..\com\ziclix\python\sql\handler\PostgresqlDataHandler.java
+t com/ziclix/python/sql/handler/UpdateCountDataHandler.java ..\com\ziclix\python\sql\handler\UpdateCountDataHandler.java
+t com/ziclix/python/sql/connect/Connect.java ..\com\ziclix\python\sql\connect\Connect.java
+t com/ziclix/python/sql/connect/Connectx.java ..\com\ziclix\python\sql\connect\Connectx.java
+t com/ziclix/python/sql/connect/Lookup.java ..\com\ziclix\python\sql\connect\Lookup.java
 #
 # Library modules from CPython
 #
@@ -476,7 +523,6 @@ t Lib/gzip.py                         d:\python\Python211\Lib\gzip.py
 t Lib/htmlentitydefs.py               d:\python\Python211\Lib\htmlentitydefs.py
 t Lib/htmllib.py                      d:\python\Python211\Lib\htmllib.py
 t Lib/httplib.py                      d:\python\Python211\Lib\httplib.py
-t Lib/imaplib.py                      d:\python\Python211\Lib\imaplib.py
 t Lib/imghdr.py                       d:\python\Python211\Lib\imghdr.py
 t Lib/keyword.py                      d:\python\Python211\Lib\keyword.py
 t Lib/linecache.py                    d:\python\Python211\Lib\linecache.py
@@ -504,7 +550,6 @@ t Lib/pprint.py                       d:\python\Python211\Lib\pprint.py
 t Lib/profile.py                      d:\python\Python211\Lib\profile.py
 t Lib/pyclbr.py                       d:\python\Python211\Lib\pyclbr.py
 t Lib/quopri.py                       d:\python\Python211\Lib\quopri.py
-t Lib/random.py                       d:\python\Python211\Lib\random.py
 t Lib/reconvert.py                    d:\python\Python211\Lib\reconvert.py
 t Lib/repr.py                         d:\python\Python211\Lib\repr.py
 t Lib/rfc822.py                       d:\python\Python211\Lib\rfc822.py
