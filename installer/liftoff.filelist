@@ -66,7 +66,6 @@ t Lib/pawt/__init__.py                ..\Lib\pawt\__init__.py
 t Doc/compile.html                    ..\Doc\compile.html
 t Doc/differences.html                ..\Doc\differences.html
 t Doc/embedding.html                  ..\Doc\embedding.html
-t Doc/faq.html                        ..\Doc\faq.html
 t Doc/index.html                      ..\Doc\index.html
 t Doc/interpreter.html                ..\Doc\interpreter.html
 t Doc/jarray.html                     ..\Doc\jarray.html
@@ -267,6 +266,7 @@ t org/python/modules/time.java        ..\org\python\modules\time.java
 t org/python/modules/types.java       ..\org\python\modules\types.java
 t org/python/modules/ucnhash.java     ..\org\python\modules\ucnhash.java
 t org/python/modules/_codecs.java     ..\org\python\modules\_codecs.java
+t org/python/modules/_jython.java     ..\org\python\modules\_jython.java
 t org/python/modules/_sre.java        ..\org\python\modules\_sre.java
 t org/python/modules/Makefile         ..\org\python\modules\Makefile
 t org/python/parser/ASCII_CharStream.java ..\org\python\parser\ASCII_CharStream.java
@@ -293,6 +293,7 @@ t org/python/util/PythonInterpreter.java ..\org\python\util\PythonInterpreter.ja
 t org/python/util/PythonObjectInputStream.java ..\org\python\util\PythonObjectInputStream.java
 t org/python/util/Makefile            ..\org\python\util\Makefile
 t Lib/jxxload_help/DiscardHelp.java   ..\Lib\jxxload_help\DiscardHelp.java
+t Lib/jxxload_help/JavaLoaderFactory.java ..\Lib\jxxload_help\JavaLoaderFactory.java
 t Lib/jxxload_help/PackageManager.java ..\Lib\jxxload_help\PackageManager.java
 t Lib/jxxload_help/PathVFS.java       ..\Lib\jxxload_help\PathVFS.java
 t Lib/jxxload_help/PathVFSJavaLoader.java ..\Lib\jxxload_help\PathVFSJavaLoader.java
