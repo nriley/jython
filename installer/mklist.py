@@ -175,8 +175,8 @@ comment("special library modules")
 listfiles(None, "Lib", '*.py', 'pawt/*.py', exclude=["site.py"])
 
 comment("Docs")
-listfiles(None, "Doc", '*.html', '*.ht')
-binary("Doc/images/jpython-new-small.gif")
+listfiles(None, "Doc", '*.html')
+binary("Doc/images/jython-new-small.gif")
 binary("Doc/images/PythonPoweredSmall.gif")
 listfiles(None, "Doc/api", '*.html')
 

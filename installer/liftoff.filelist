@@ -76,20 +76,7 @@ t Doc/registry.html                   ..\Doc\registry.html
 t Doc/subclassing.html                ..\Doc\subclassing.html
 t Doc/usejava.html                    ..\Doc\usejava.html
 t Doc/whatis.html                     ..\Doc\whatis.html
-t Doc/compile.ht                      ..\Doc\compile.ht
-t Doc/differences.ht                  ..\Doc\differences.ht
-t Doc/embedding.ht                    ..\Doc\embedding.ht
-t Doc/faq.ht                          ..\Doc\faq.ht
-t Doc/index.ht                        ..\Doc\index.ht
-t Doc/interpreter.ht                  ..\Doc\interpreter.ht
-t Doc/jarray.ht                       ..\Doc\jarray.ht
-t Doc/jythonc.ht                      ..\Doc\jythonc.ht
-t Doc/properties.ht                   ..\Doc\properties.ht
-t Doc/registry.ht                     ..\Doc\registry.ht
-t Doc/subclassing.ht                  ..\Doc\subclassing.ht
-t Doc/usejava.ht                      ..\Doc\usejava.ht
-t Doc/whatis.ht                       ..\Doc\whatis.ht
-b Doc/images/jpython-new-small.gif    ..\Doc/images/jpython-new-small.gif
+b Doc/images/jython-new-small.gif     ..\Doc/images/jython-new-small.gif
 b Doc/images/PythonPoweredSmall.gif   ..\Doc/images/PythonPoweredSmall.gif
 t Doc/api/org.python.util.PythonInterpreter.html ..\Doc\api\org.python.util.PythonInterpreter.html
 #
