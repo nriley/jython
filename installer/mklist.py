@@ -52,7 +52,7 @@ pylibfiles = [
     'Queue.py',
     'SimpleHTTPServer.py',
     'SocketServer.py',
-    #'StringIO.py', # Temporarily removed.
+    'StringIO.py',
     'UserDict.py',
     'UserList.py',
     'anydbm.py',
@@ -67,7 +67,7 @@ pylibfiles = [
     'colorsys.py',
     'commands.py',
     'compileall.py',
-    #'copy.py', # Temporarily removed.
+    'copy.py',
     'copy_reg.py',
     'dircache.py',
     'dircmp.py',
