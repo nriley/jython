@@ -1,10 +1,10 @@
 #liftoff dist file
 product.author=The Jython Team
 product.string=Jython
-product.version=2.0
+product.version=2.1a1
 java.minVersion=1.1
 product.root=
-destination.package_prefix=jython-2.0
+destination.package_prefix=jython-2.1a1
 license.licenseText=LICENSE.txt
 product.readmeText=README.txt
 builder.extra_files=installer\\liftoff.filelist
