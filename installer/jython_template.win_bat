@@ -17,5 +17,5 @@ if [%1] == [] goto end
 @jvm@ "/d:python.home=@location._top_@" "/d:python.packages.fakepath=@location._top_@\jython.jar" /cp:p "@location._top_@\jython.jar" @classname@ %ARGS%
 @endif@
 @ifn@java.vendor=Microsoft Corp.@
-"@jvm@" "-Dpython.home=@location._top_@" -classpath "@location._top_@\jython.jar;%CLASSPATH%" @classname@ %ARGS%
+"@jvm@" %JYTHON_JAVA_ARGS% "-Dpython.home=@location._top_@" -classpath "@location._top_@\jython.jar;%CLASSPATH%" @classname@ %ARGS%
 @endif@
