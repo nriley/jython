@@ -674,7 +674,6 @@ t Lib/xml/sax/_exceptions.py          ..\Lib\xml\sax\_exceptions.py
 t Lib/xml/sax/__init__.py             ..\Lib\xml\sax\__init__.py
 t Lib/xml/sax/drivers2/drv_xmlproc.py ..\Lib\xml\sax\drivers2\drv_xmlproc.py
 t Lib/xml/sax/drivers2/__init__.py    ..\Lib\xml\sax\drivers2\__init__.py
-t Lib/xml/utils/characters.py         ..\Lib\xml\utils\characters.py
 t Lib/xml/utils/iso8601.py            ..\Lib\xml\utils\iso8601.py
 t Lib/xml/utils/qp_xml.py             ..\Lib\xml\utils\qp_xml.py
 t Lib/xml/utils/__init__.py           ..\Lib\xml\utils\__init__.py
