@@ -346,6 +346,7 @@ t org/python/core/PyMetaClass.java    ..\org\python\core\PyMetaClass.java
 t org/python/core/PyMethod.java       ..\org\python\core\PyMethod.java
 t org/python/core/PyModule.java       ..\org\python\core\PyModule.java
 t org/python/core/PyNone.java         ..\org\python\core\PyNone.java
+t org/python/core/PyNotImplemented.java ..\org\python\core\PyNotImplemented.java
 t org/python/core/PyObject.java       ..\org\python\core\PyObject.java
 t org/python/core/PyProxy.java        ..\org\python\core\PyProxy.java
 t org/python/core/PyReflectedConstructor.java ..\org\python\core\PyReflectedConstructor.java
@@ -451,9 +452,11 @@ t Lib/jxxload_help/PackageManager.java ..\Lib\jxxload_help\PackageManager.java
 t Lib/jxxload_help/PathVFS.java       ..\Lib\jxxload_help\PathVFS.java
 t Lib/jxxload_help/PathVFSJavaLoader.java ..\Lib\jxxload_help\PathVFSJavaLoader.java
 t com/ziclix/python/sql/DataHandler.java ..\com\ziclix\python\sql\DataHandler.java
+t com/ziclix/python/sql/DBApiType.java ..\com\ziclix\python\sql\DBApiType.java
 t com/ziclix/python/sql/Fetch.java    ..\com\ziclix\python\sql\Fetch.java
 t com/ziclix/python/sql/FilterDataHandler.java ..\com\ziclix\python\sql\FilterDataHandler.java
 t com/ziclix/python/sql/JDBC20DataHandler.java ..\com\ziclix\python\sql\JDBC20DataHandler.java
+t com/ziclix/python/sql/Procedure.java ..\com\ziclix\python\sql\Procedure.java
 t com/ziclix/python/sql/PyConnection.java ..\com\ziclix\python\sql\PyConnection.java
 t com/ziclix/python/sql/PyCursor.java ..\com\ziclix\python\sql\PyCursor.java
 t com/ziclix/python/sql/PyExtendedCursor.java ..\com\ziclix\python\sql\PyExtendedCursor.java
