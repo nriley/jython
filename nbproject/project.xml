@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project xmlns="http://www.netbeans.org/ns/project/1">
+    <type>org.netbeans.modules.ant.freeform</type>
+    <configuration>
+        <general-data xmlns="http://www.netbeans.org/ns/freeform-project/1">
+            <!-- Do not use Project Properties customizer when editing this file manually. -->
+            <name>Jython</name>
+            <properties/>
+            <folders>
+                <source-folder>
+                    <label>src</label>
+                    <type>java</type>
+                    <location>src</location>
+                </source-folder>
+                <source-folder>
+                    <label>build/gensrc</label>
+                    <type>java</type>
+                    <location>build/gensrc</location>
+                </source-folder>
+                <source-folder>
+                    <label>ast/test</label>
+                    <type>java</type>
+                    <location>ast/test</location>
+                </source-folder>
+            </folders>
+            <ide-actions>
+                <action name="build">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>developer-build</target>
+                </action>
+                <action name="clean">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>clean</target>
+                </action>
+                <action name="javadoc">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>javadoc</target>
+                </action>
+                <action name="test">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>test</target>
+                </action>
+                <action name="rebuild">
+                    <script>nbproject/nbjdk.xml</script>
+                    <target>clean</target>
+                    <target>developer-build</target>
+                </action>
+            </ide-actions>
+            <export>
+                <type>folder</type>
+                <location>build/classes</location>
+                <script>nbproject/nbjdk.xml</script>
+                <build-target>developer-build</build-target>
+            </export>
+            <export>
+                <type>folder</type>
+                <location>build/exposed</location>
+                <script>nbproject/nbjdk.xml</script>
+                <build-target>developer-build</build-target>
+            </export>
+            <export>
+                <type>folder</type>
+                <location>build/classes</location>
+                <script>nbproject/nbjdk.xml</script>
+                <build-target>developer-build</build-target>
+            </export>
+            <view>
+                <items>
+                    <source-folder style="packages">
+                        <label>src</label>
+                        <location>src</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>build/gensrc</label>
+                        <location>build/gensrc</location>
+                    </source-folder>
+                    <source-folder style="packages">
+                        <label>ast/test</label>
+                        <location>ast/test</location>
+                    </source-folder>
+                    <source-file>
+                        <location>build.xml</location>
+                    </source-file>
+                </items>
+                <context-menu>
+                    <ide-action name="build"/>
+                    <ide-action name="rebuild"/>
+                    <ide-action name="clean"/>
+                    <ide-action name="javadoc"/>
+                    <ide-action name="test"/>
+                </context-menu>
+            </view>
+            <subprojects/>
+        </general-data>
+        <java-data xmlns="http://www.netbeans.org/ns/freeform-project-java/2">
+            <compilation-unit>
+                <package-root>src</package-root>
+                <classpath mode="compile">src:extlibs/antlr-3.1.2.jar:extlibs/asm-3.1.jar:extlibs/asm-commons-3.1.jar:extlibs/constantine-0.4.jar:extlibs/jline-0.9.95-SNAPSHOT.jar:extlibs/jna-posix.jar:extlibs/libreadline-java-0.8.jar:extlibs/servlet-api-2.5.jar:build/classes:/usr/share/ant/lib/ant.jar</classpath>
+                <built-to>build/classes</built-to>
+                <built-to>build/exposed</built-to>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>ast/test</package-root>
+                <unit-tests/>
+                <classpath mode="compile">src:extlibs/junit-3.8.2.jar</classpath>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+            <compilation-unit>
+                <package-root>build/gensrc</package-root>
+                <classpath mode="compile">extlibs/antlr-3.1.2.jar:src:extlibs/antlr-runtime-3.1.2.jar</classpath>
+                <built-to>build/classes</built-to>
+                <source-level>1.5</source-level>
+            </compilation-unit>
+        </java-data>
+        <preferences xmlns="http://www.netbeans.org/ns/auxiliary-configuration-preferences/1">
+            <module name="org-netbeans-modules-editor-indent"/>
+        </preferences>
+    </configuration>
+</project>
