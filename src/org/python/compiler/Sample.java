@@ -11,10 +11,14 @@ public class Sample {
     public static void dolt() {
         ThreadState ts = Py.getThreadState();
         
-        // XXX doesn't work - inserting additional arguments not yet implemented
-        // PyObject result = InvokeDynamic.<PyObject>foo(ts, new PyInteger(4));
+        // XXX doesn't work - inserting additional arguments not yet
+        // implemented
+	// PyObject result = InvokeDynamic.<PyObject>foo(ts,
+	// 					      new PyInteger(4));
 
-        PyObject result = InvokeDynamic.<PyObject>foo(ts, (PyObject)new PyInteger(4), null, null, null);
+        PyObject result = InvokeDynamic.<PyObject>foo(ts,
+						      new PyInteger(4),
+						      null, null, null);
 
         System.out.println("result = " + result);
     }
@@ -35,13 +39,15 @@ public class Sample {
                 "Lorg/python/core/PyObject;", null);
         System.err.println("method type: " + oneArgCall);
         System.err.println("call site type: " + type);
-        MethodHandle call = MethodHandles.lookup().findVirtual(PyCode.class, "call", oneArgCall);
+        MethodHandle call =
+	    MethodHandles.lookup().findVirtual(PyCode.class,"call",
+					       oneArgCall);
         System.err.println("untransformed method handle: " + call);
-        call = MethodHandles.convertArguments(call, type);
         call = MethodHandles.insertArgument(call, 0, func_code);
         // call = MethodHandles.insertArgument(call, 2, null); // globals - XXX doesn't work, not yet implemented
         // call = MethodHandles.insertArgument(call, 3, null); // defaults
         // call = MethodHandles.insertArgument(call, 4, null); // closure
+        call = MethodHandles.convertArguments(call, type);
         System.err.println("transformed method handle: " + call);
         site.setTarget(call);
         return site;
