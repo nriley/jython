@@ -462,6 +462,7 @@ The readme text for the next release will be like:
                memoryMaximumSize="192m"
                fork="true">
             <compilerarg line="${javac.Xlint}"/>
+            <compilerarg line="-XDinvokedynamic"/>
             <src path="${source.dir}"/>
             <src path="${gensrc.dir}"/>
 
