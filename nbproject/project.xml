@@ -17,11 +17,6 @@
                     <type>java</type>
                     <location>build/gensrc</location>
                 </source-folder>
-                <source-folder>
-                    <label>ast/test</label>
-                    <type>java</type>
-                    <location>ast/test</location>
-                </source-folder>
             </folders>
             <ide-actions>
                 <action name="build">
@@ -74,10 +69,6 @@
                         <label>build/gensrc</label>
                         <location>build/gensrc</location>
                     </source-folder>
-                    <source-folder style="packages">
-                        <label>ast/test</label>
-                        <location>ast/test</location>
-                    </source-folder>
                     <source-file>
                         <location>build.xml</location>
                     </source-file>
@@ -98,12 +89,6 @@
                 <classpath mode="compile">src:extlibs/antlr-3.1.2.jar:extlibs/asm-3.1.jar:extlibs/asm-commons-3.1.jar:extlibs/constantine-0.4.jar:extlibs/jline-0.9.95-SNAPSHOT.jar:extlibs/jna-posix.jar:extlibs/libreadline-java-0.8.jar:extlibs/servlet-api-2.5.jar:build/classes:/usr/share/ant/lib/ant.jar</classpath>
                 <built-to>build/classes</built-to>
                 <built-to>build/exposed</built-to>
-                <source-level>1.5</source-level>
-            </compilation-unit>
-            <compilation-unit>
-                <package-root>ast/test</package-root>
-                <unit-tests/>
-                <classpath mode="compile">src:extlibs/junit-3.8.2.jar</classpath>
                 <source-level>1.5</source-level>
             </compilation-unit>
             <compilation-unit>
