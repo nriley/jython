@@ -6,7 +6,10 @@
 def foo(a):
     return a + 1
 
-foo(5)
+def bar():
+    foo(5)
+
+bar()
 
 from org.python.compiler import Sample
 
